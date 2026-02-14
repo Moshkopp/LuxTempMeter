@@ -3,7 +3,7 @@
 LuxTempMeter is a small ESP32-based sensor board for measuring:
 
 - 📊 Ambient light (lux)
-- 🌡 Temperature (DS18B20)
+- 🌡 Temperature (DHT22)
 - 📡 Designed for Home Assistant / IoT setups
 - ⚙ Built with PlatformIO
 
@@ -21,11 +21,12 @@ LuxTempMeter is a small ESP32-based sensor board for measuring:
 
 - ESP32 (low power capable)
 - Light sensor (BH1750 or similar)
-- DS18B20 temperature sensor
-- Designed for low power / solar use
+- DHT22 temperature sensor
+- Designed for low power 
 - Compact custom PCB
+
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure 
 
