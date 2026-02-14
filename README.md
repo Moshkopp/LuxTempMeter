@@ -11,7 +11,7 @@ LuxTempMeter is a small ESP32-based sensor board for measuring:
 
 ## 📸 PCB Preview
 
-![PCB Screenshot](screenshots/psm_white_top.png)
+![PCB Screenshot](screenshots/sm_white_top.png)
 
 
 
