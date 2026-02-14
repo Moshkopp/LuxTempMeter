@@ -1,4 +1,6 @@
-# 🌞 LuxTempMeter – ESP32 Light & Temperature Sensor
+# 🌞 LuxTempMeter – ESP32 Light & Temperature Sensor sending over BLE with battery
+
+
 
 LuxTempMeter is a small ESP32-based sensor board for measuring:
 
@@ -27,6 +29,31 @@ LuxTempMeter is a small ESP32-based sensor board for measuring:
 
 
 ---
+## Idea
+
+ using a cn3065 or similar to charge 18650 cells
+---
 
 ## 📁 Project Structure 
+
+LuxTempMeter/
+├─ src/ → Firmware (PlatformIO)
+├─ platformio.ini
+├─ hardware/
+│ └─ pcb/
+│ └─ LuxTempMeter-gerber.zip
+├─ screenshots/
+│ └─ pcb.png
+└─ README.md
+
+
+---
+
+## 🚀 Flashing
+
+```bash
+pio run -t upload
+
+
+
 
